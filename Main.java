@@ -16,7 +16,7 @@ public class Main {
            }
             double res = Calculator.calculate(parser.getVar1(), parser.getVar2(), parser.getOp());
             String result = String.valueOf(res);
-            if (parser.resultIsRoman){
+            if (parser.isResultRoman()){
                 result = new RomanNumber((int)res).toString();
            }
             System.out.println(result);

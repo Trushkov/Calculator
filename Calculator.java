@@ -9,6 +9,7 @@ public class Calculator {
             case '*': result = var1 * var2;
             break;
             case '/': result = var1 / var2;
+            break;
             default: throw new IllegalArgumentException("Неверный знак опреации");
         }
         return result;
